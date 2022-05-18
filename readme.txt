@@ -1,13 +1,19 @@
 === Better WP Admin Bar ===
-Contributors: Dalton Walsh
-Tags: admin bar, wp bar
+Contributors: DaltonWalsh
+Tags: better admin bar, better wp admin bar, better UX admin bar, admin bar, wp bar
+Version: 1.0
 License: GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Plugin URI: https://github.com/Dalton123/better-wp-admin-bar
+Author URI: https://daltonwalsh.com/
+Author: Dalton Walsh
 Requires at least: 4.9
+Stable tag: 1.6.2
 Tested up to: 5.9.3
 Requires PHP: 5.2.4
+Donate link: https://www.paypal.com/donate/?hosted_button_id=59445CUP5GXWN
 
-A tiny plugin to make the WordPress admin bar less annoying when working with a fixed header theme.
+A tiny plugin to improve the UX of the WordPress admin bar.
 
 == Description ==
 
@@ -18,8 +24,21 @@ This plugin adds some CSS and JS to help make your life easier by keeping the ba
 Simply hover or click the tab to show the admin bar. Then click again to hide.
 
 == Installation ==
-Simple activate and you are good to go.
+Simple upload/install and then activate and you are good to go.
 
 == Frequently Asked Questions ==
 Can I force the admin bar to stay if I want to?
 Yes, you can click on the admin bar to toggle it open. 
+
+== Changelog ==
+
+= 0.1 =
+Initial release.
+
+== Upgrade Notice ==
+
+All upgrades will be non-breaking.
+
+== Screenshots ==
+
+1. Simple & Intuitive
