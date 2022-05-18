@@ -41,4 +41,4 @@ All upgrades will be non-breaking.
 
 == Screenshots ==
 
-1. Simple & Intuitive
+1. Screenshot of what the tab on the updated admin looks like. (images/screenshot.png)
