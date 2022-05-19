@@ -8,7 +8,7 @@ Plugin URI: https://github.com/Dalton123/better-wp-admin-bar
 Author URI: https://daltonwalsh.com/
 Author: Dalton Walsh
 Requires at least: 4.9
-Stable tag: 1.6.2
+Stable tag: 1.0
 Tested up to: 5.9.3
 Requires PHP: 5.2.4
 Donate link: https://www.paypal.com/donate/?hosted_button_id=59445CUP5GXWN
