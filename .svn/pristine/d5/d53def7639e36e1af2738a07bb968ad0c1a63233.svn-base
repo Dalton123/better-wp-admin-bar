@@ -1,0 +1,65 @@
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 0.1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+}
+
+#wpadminbar {
+  position: fixed !important;
+  transform: translateY(-32px);
+  transition: transform 0.5s;
+  will-change: transform;
+}
+
+#wpadminbar:hover,
+#wpadminbar.open {
+  animation: none;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+#wpadminbar:hover .wpadminbar-click-box,
+.wpadminbar-click-box:hover,
+#wpadminbar.open .wpadminbar-click-box {
+  animation: none;
+}
+
+#wpadminbar .wpadminbar-click-box {
+  width: 70px;
+  height: 30px;
+  color: #f0f0f1;
+  background-color: #1d2327;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: translateY(29px);
+  padding: 0 2px;
+  margin: 0 auto;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  text-align: center;
+  font-size: 12px;
+  will-change: transform;
+  transition: transform 0.2s;
+  cursor: pointer;
+  animation: pulse 10s ease-in-out infinite;
+  font-family: sans-serif;
+}
+
+@media screen and (max-width: 782px) {
+  #wpadminbar .wpadminbar-click-box {
+    width: 60px;
+    font-size: 11px;
+  }
+
+  #wpadminbar {
+    transform: translateY(-46px);
+    min-width: auto !important;
+  }
+}
