@@ -11,6 +11,10 @@ Text Domain:  better-wp-admin-bar
 Domain Path:  /languages
 */
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
+}
+
 add_action('wp_enqueue_scripts','betterWpAdminBar');
 
 if ( !function_exists( 'betterWpAdminBar' ) ) {
