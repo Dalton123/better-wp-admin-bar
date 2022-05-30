@@ -23,6 +23,8 @@ This plugin adds some CSS and JS to help make your life easier by keeping the ba
 
 Simply hover or click the tab to show the admin bar. Then click again to hide.
 
+https://youtu.be/I4DzRiPA7PU
+
 == Installation ==
 Simple upload/install and then activate and you are good to go.
 
