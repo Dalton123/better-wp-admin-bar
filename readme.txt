@@ -1,7 +1,7 @@
 === Better WP Admin Bar ===
 Contributors: DaltonWalsh
 Tags: better admin bar, better wp admin bar, better UX admin bar, admin bar, wp bar
-Version: 1.0
+Version: 1.1
 License: GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 Plugin URI: https://github.com/Dalton123/better-wp-admin-bar
@@ -34,8 +34,14 @@ Yes, you can click on the admin bar to toggle it open.
 
 == Changelog ==
 
-= 0.1 =
-Initial release.
+= 1.1 =
+*Release Date 22/06/22*
+
+* New - Added ability to move the tab that the user can hover/click to bring up the admin bar.
+* New - Added banner to plugin page on WordPress.
+
+= 1.0 =
+* Initial release.
 
 == Upgrade Notice ==
 

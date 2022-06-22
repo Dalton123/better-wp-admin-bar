@@ -1,46 +1,48 @@
 @keyframes pulse {
-  0%,
-  100% {
+  0%, 100% {
     opacity: 0.1;
   }
-
   50% {
     opacity: 0.5;
   }
 }
-
 #wpadminbar {
   position: fixed !important;
   transform: translateY(-32px);
   transition: transform 0.5s;
   will-change: transform;
 }
-
-#wpadminbar:hover,
+@media screen and (max-width: 782px) {
+  #wpadminbar {
+    transform: translateY(-46px);
+    min-width: auto !important;
+  }
+}
+#wpadminbar:hover {
+  animation: none;
+  opacity: 1;
+  transform: translateY(0);
+}
+#wpadminbar:hover .wpadminbar-click-box {
+  animation: none;
+}
 #wpadminbar.open {
   animation: none;
   opacity: 1;
   transform: translateY(0);
 }
-
-#wpadminbar:hover .wpadminbar-click-box,
-.wpadminbar-click-box:hover,
 #wpadminbar.open .wpadminbar-click-box {
   animation: none;
 }
-
 #wpadminbar .wpadminbar-click-box {
-  width: 70px;
-  height: 30px;
+  position: absolute;
+  left: 48%;
+  display: inline-block;
   color: #f0f0f1;
   background-color: #1d2327;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  transform: translateY(29px);
-  padding: 0 2px;
-  margin: 0 auto;
+  transform: translateY(31px);
+  padding: 5px 10px;
+  margin-left: -38px;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
   text-align: center;
@@ -51,15 +53,14 @@
   animation: pulse 10s ease-in-out infinite;
   font-family: sans-serif;
 }
-
+#wpadminbar .wpadminbar-click-box:hover {
+  animation: none;
+}
 @media screen and (max-width: 782px) {
   #wpadminbar .wpadminbar-click-box {
-    width: 60px;
+    transform: translateY(46px);
     font-size: 11px;
   }
-
-  #wpadminbar {
-    transform: translateY(-46px);
-    min-width: auto !important;
-  }
 }
+
+/*# sourceMappingURL=style.css.map */
