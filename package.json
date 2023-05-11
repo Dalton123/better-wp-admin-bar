@@ -1,0 +1,37 @@
+{
+  "name": "better-wp-admin-bar",
+  "version": "1.0.0",
+  "description": "=== Better WP Admin Bar === Contributors: DaltonWalsh Tags: better admin bar, better wp admin bar, better UX admin bar, admin bar, wp bar Version: 1.1 License: GPL2 License URI: https://www.gnu.org/licenses/gpl-2.0.html Plugin URI: https://github.com/Dalton123/better-wp-admin-bar Author URI: https://daltonwalsh.com/ Author: Dalton Walsh Requires at least: 4.9 Stable tag: 1.0 Tested up to: 6.0 Requires PHP: 5.2.4 Donate link: https://www.paypal.com/donate/?hosted_button_id=59445CUP5GXWN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "watch": "npx webpack --watch --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dalton123/better-wp-admin-bar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dalton123/better-wp-admin-bar/issues"
+  },
+  "homepage": "https://github.com/Dalton123/better-wp-admin-bar#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "babel-loader": "^9.1.2",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.3",
+    "css-minimizer-webpack-plugin": "^5.0.0",
+    "mini-css-extract-plugin": "^2.7.5",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.2.2",
+    "style-loader": "^3.3.2",
+    "terser-webpack-plugin": "^5.3.8",
+    "webpack": "^5.82.1",
+    "webpack-cli": "^5.1.1"
+  }
+}

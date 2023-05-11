@@ -19,8 +19,8 @@ add_action('wp_enqueue_scripts','betterWpAdminBar');
 
 if ( !function_exists( 'betterWpAdminBar' ) ) {
   function betterWpAdminBar() {
-      wp_enqueue_script( 'better-wp-admin-bar-js', plugins_url( '/js/app.js', __FILE__ ));
-      wp_register_style( 'better-wp-admin-bar-css', plugins_url( '/css/style.css', __FILE__ ) );
-      wp_enqueue_style( 'better-wp-admin-bar-css' );
+    wp_enqueue_script( 'better-wp-admin-bar-js', plugins_url( '/assets/js/main.bundle.js', __FILE__ ));
+    wp_register_style( 'better-wp-admin-bar-css', plugins_url( '/assets/css/main.bundle.css', __FILE__ ) );
+    wp_enqueue_style( 'better-wp-admin-bar-css' );
   }
 }
