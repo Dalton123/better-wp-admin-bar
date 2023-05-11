@@ -2,7 +2,7 @@
 /*
 Plugin Name:  Better WP Admin Bar
 Description:  A tiny plugin to make the WordPress admin bar less annoying when working with a fixed header theme.
-Version:      1.0
+Version:      1.2
 Author:       Dalton Walsh
 Author URI:   https://www.daltonwalsh.com
 License:      GPL2
